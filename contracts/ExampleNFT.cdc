@@ -373,7 +373,7 @@ pub contract ExampleNFT: NonFungibleToken, ViewResolver {
 
     init() {
         // Initialize the total supply
-        self.totalSupply = 0
+        self.totalSupply = 1000
 
         // Set the named paths
         self.CollectionStoragePath = /storage/exampleNFTCollection

@@ -18,7 +18,8 @@
     "ViewResolver": "./contracts/ViewResolver.cdc",
     "ExampleNFT": "./contracts/ExampleNFT.cdc",
     "FungibleToken": "./contracts/utility/FungibleToken.cdc",
-    "NFTForwarding": "./contracts/utility/NFTForwarding.cdc"
+    "NFTForwarding": "./contracts/utility/NFTForwarding.cdc",
+    "NUPY": "./contracts/NUPY.cdc"
   },
   "networks": {
     "emulator": "127.0.0.1:3569",
@@ -29,6 +30,10 @@
     "emulator-account": {
       "address": "0xf8d6e0586b0a20c7",
       "key": "1a05ba433be5af2988e814d1e4fa08f1574140e6cb5649a861cc6377718c51be"
+    },
+    "my-testnet-account": {
+      "address": "0x6e1d1217a98b542c",
+      "key": "15f804fe02e7166a6503ced40c6c6fa1a5c341c50e1f6a3612ac0996d35095a4"
     }
   },
   "deployments": {
@@ -40,6 +45,17 @@
         "MetadataViews",
         "FungibleToken",
         "NFTForwarding"
+      ]
+    },
+    "testnet": {
+      "my-testnet-account": [
+        "NonFungibleToken",
+        "ViewResolver",
+        "ExampleNFT",
+        "MetadataViews",
+        "FungibleToken",
+        "NFTForwarding",
+        "NUPY"
       ]
     }
   }

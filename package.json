@@ -33,6 +33,13 @@
   "homepage": "https://github.com/onflow/flow-nft#readme",
   "dependencies": {
     "@changesets/cli": "^2.23.0",
+    "@onflow/fcl": "^1.2.0",
+    "@onflow/flow-js-testing": "^0.4.0",
+    "@onflow/types": "^1.0.2",
+    "elliptic": "^6.5.4",
     "package.json": "^2.0.1"
+  },
+  "devDependencies": {
+    "@types/onflow__flow-js-testing": "^0.3.1"
   }
 }
